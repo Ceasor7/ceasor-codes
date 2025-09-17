@@ -6,7 +6,7 @@ const Logo = () => {
   return (
     <Link href="/">
       <Image
-        src="/ceasor-codes-light-logo.png"
+        src="./ceasor-codes-light-logo.png"
         alt="KITFest white logo"
         width={100}
         height={70}
