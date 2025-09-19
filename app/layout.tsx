@@ -4,6 +4,7 @@ import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { Providers } from "@/components/Extras/providers";
 import FloatingNavbar from "@/components/Header/FloatingNavbar";
+import Footer from "@/components/Footer/Footer";
 
 const quicksand = Quicksand({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Providers>
           <FloatingNavbar />
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>
